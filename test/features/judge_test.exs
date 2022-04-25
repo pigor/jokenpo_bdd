@@ -1,4 +1,7 @@
 defmodule Jokenpo.Features.Judge do
+  # Example using Outline format
+  # use Cabbage.Feature, async: false, file: "judge_outline.feature"
+
   use Cabbage.Feature, async: false, file: "judge.feature"
 
   defgiven ~r/^que existem dois jogadores/, _, state do
